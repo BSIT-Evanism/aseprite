@@ -73,5 +73,5 @@ jobs:
         $XVFB bash run-tests.sh
     - uses: actions/upload-artifact@v4
       with:
-        name: asepritefile
-        path: builds/
+        name: aseprite
+        path: ASEPRITE=$PWD/build/bin/aseprite
